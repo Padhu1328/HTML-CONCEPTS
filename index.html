@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+   <style>table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+   border-spacing: 50px;
+   th, td {
+  padding: 10px;
+  
+}
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+  }
+  .city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+.pink{
+    background-color: blueviolet;
+    margin: 20px;
+    color: antiquewhite;}
+    .span{
+        
+  font-size: 120%;
+  color: red;
+}
+#myHeader{
+    background-color: blueviolet;}</style>
+    
+   
+</head>
+<body>
+    <h1>Headings:-h1 to h6 are used for headings</h1>
+    <p>p tag is used for paragraph</p>
+    <a href="https://www.veerometals.com/">a tag is a link</a><br><br>
+    <img src="img_lights.jpg" alt="img_lights.com" width="120" height="104"><p>img tag is used</p>
+
+    <h1>HTML ELEMENTS</h1>
+    <p>1. Empty elements like br tag<br>2. Nested element like h1, p, html</p>
+    <h1>HTML ATTRIBUTES</h1>
+    <p>All HTML elements can have attributes<br>
+The href attribute of 'a' tag <br>
+The src attribute of 'img'tag <br>
+The width and height attributes of 'img' tag<br>
+The alt attribute of 'img' tag<br>
+The style attribute is used to add styles to an element, such as color, font, size, and more</p>
+<p style="color: deeppink;">'Style' attribute used</p>
+<p>The lang attribute of the 'html' tag </p>
+<p>The title attribute defines some extra information about an element we using "TOOLTIP"</p>
+<p title="I am paragraph">Mouse over this paragraph, to display the title attribute as a tooltip</p>
+<h4 title="I am header">Tooltip is used</h4>
+<hr>hr tag is ised to break the line
+<pre>pre tag :-line by line it give
+not like paragraph
+</pre>
+<h1>HTML STYLES</h1>
+<p style="color: blue;">Colour</p>
+<h3 style="font-size: large;">Font size</h3>
+<p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">font family</p>
+<p style="background-color: aqua;">bg</p>
+<p style="text-align: center;">text align</p>
+<h1>HTML FORMATING</h1>
+    <pre>
+    <b>Bold text</b> 
+    <strong> - Important text</strong> 
+    <i>i-Italic text</i>
+    <em>em-Emphasized text</em>
+    <mark>mark-Marked text</mark>
+    <small>small-Smaller text</small>
+    this is del- <del>Deleted text</del> phone
+    this is ins-<ins>Inserted text</ins>phone
+    this is sub- <sub>Subscripted text</sub>
+    this is sup-<sup>Superscript text</sup>
+    </pre>
+    <q>q tag is used for quotations</q><br>
+    <abbr title="world health organisation">who, abbr-is used for line</abbr>
+    <p><address>
+        Written by John Doe.<br> 
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+        </address> it is used for address</p>
+        <p><cite>The Scream</cite> it is used title of work start</p>
+        <bdo dir="rtl">This line will be written from right to left</bdo><br>
+        <a href="https://www.veerometals.com/" target="_blank">target link was open in new tab/window.</a>
+           <pre>
+            _self - Default. Opens the document in the same window/tab as it was clicked
+            _blank - Opens the document in a new window or tab
+            _parent - Opens the document in the parent frame
+            _top - Opens the document in the full body of the window</pre>
+            <p><a href="mailto:someone@example.com">Send email</a></p>
+            <button onclick="document.location='default.asp'">HTML Tutorial</button>
+            <h1>HTML TABLE</h1>
+            
+           <table>
+            <caption>Student</caption>
+                <tr>
+                    <th colspan="2">S.No</th>
+                    <th>Name</th>
+                    
+                </tr>
+                <tr>
+                    <td rowspan="2">1</td>
+                    <td>Ram</td>
+                    <td>MPC</td>
+                    
+                </tr>
+                <tr>
+                    
+                    <td>Vishnu</td>
+                    <td>BPC</td>
+                </tr>
+</table>
+<p>Here we add style in between head tag for border. ex:-border-radius,border-collapse,border-style,border-color,border-spacing</p>
+ <h1>HTML LISTS</h1>
+ <ul><li>@</li>
+    <li>%</li>
+</ul>
+    <ol><li>@</li>
+        <li>%</li>
+    </ol>
+    <dl>
+        <dt>dt stands for defines the term (name)</dt>
+        <dd>-dd stands for  describes each term</dd>
+        <p>dl tag stands for describe test</p>
+        </dl>
+        <p>This is an inline span <span style="border: 1px solid black">Hello World</span> element inside a paragraph.</p>
+       <h1>HTML CLASS</h1>
+        <div class="city">
+            <h2>London</h2>
+            <p>here class name is city, then we style easily </p>
+          </div>
+          <div class="pink">
+            <h2>Paris</h2>
+            </div>
+            <p>this is span <span class="span">element</span>.</p>
+            <h1>HTML ID</h1>
+            <p>An element with a unique "id"</p>
+<h1 id="myHeader">My Cities</h1>
+
+<p> Multiple elements with same "class"</p>
+
+<!-- Multiple elements with same class -->
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+<h2>HTML BOOKMARK</h2>
+<p><a href="#C4">Jump to Chapter 4</a></p>
+<p><a href="#C10">Jump to Chapter 10</a></p>
+
+<h2>Chapter 1</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 2</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 3</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C4">Chapter 4</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 5</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 6</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 7</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 8</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 9</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C10">Chapter 10</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 11</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 12</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 13</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 14</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 15</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 16</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 17</h2>
+<p>This chapter explains ba bla bla</p>
+<h1>HTML LAYOUTSs</h1>
+<img src="html layout.png">
+<pre>
+    header- Defines a header for a document or a section
+    nav- Defines a set of navigation links
+    section- Defines a section in a document
+    article - Defines an independent, self-contained content
+    aside - Defines content aside from the content (like a sidebar)
+    footer - Defines a footer for a document or a section
+    details - Defines additional details that the user can open and close on demand
+    summary - Defines a heading for the <details> element</pre>
+        <img src="html-entities-code.jpg" style="height: 300px; width: 50%;">
+           <h1>Emojies</h1>
+           <p>&#128507; starts symbol, 128512 symbol in decimal, 1F600hex, A starts 65</p> 
+           <h1>HTML FORMS</h1>
+           <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+            <input type="radio" id="html" name="fav_language" value="HTML">
+             <label for="html">HTML</label>
+             <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="submit" value="Submit">
+          </form>
+          <pre>
+           button <input type="button">
+           checkbox <input type="checkbox">
+            color<input type="color">
+           date <input type="date">
+           date-time-local <input type="datetime-local">
+          email  <input type="email">
+            file<input type="file">
+            hidden<input type="hidden">
+            image<input type="image">
+            month<input type="month">
+            number<input type="number">
+            password<input type="password">
+            radio<input type="radio">
+            range<input type="range">
+            reset<input type="reset">
+            search<input type="search">
+            tel<input type="tel">
+            text<input type="text">
+            time<input type="time">
+            url<input type="url">
+            week<input type="week">
+            submit<input type="submit" value="Submit"></pre>
+</body>
+</html>
